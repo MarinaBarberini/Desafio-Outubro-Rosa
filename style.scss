@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Noto Sans", sans-serif;
+}
+
+header {background-color: #FF69B4; color:white; text-transform: uppercase; display: flex; height: 18.4vh; justify-content: space-between; li{list-style-type: none;} .div1{display: flex; flex-direction: row; p{display: flex; align-items: center; font-weight: 400; font-size: 25px;} img{padding-left: 10px;}} .div2{nav{ul{display: flex; flex-direction: row; li{padding: 50px;}}}}}
+
+main {
+    .container1{height: 58.8vh; background-color:#FFD9EC; display: flex; justify-content: space-between; p{width: 42.9vw; height: 41.3vh; padding-left: 50px; display: flex; align-items: center; font-weight: 400; font-size: 25px; padding-top: 50px;} img{padding-right: 100px; padding-top: 10px; padding-bottom: 10px;}}
+.container2{color: white; height: 40.8vh; background-color: #FF69B4; display: flex; p{width: 47.4; display: flex; align-items: center; padding-left: 30px; padding-right: 30px; font-weight: 400; font-size: 25px;} img{padding-left: 15px; padding-top: 10px; padding-bottom: 10px;}}
+.container3{display: flex; justify-content: space-around; background-color: #FFD9EC; padding-top: 40px; padding-bottom: 40px;}}
+footer {color:white; background-color: #FF69B4; display: flex; justify-content: space-between; align-items: center; li{list-style-type: none;} img{padding-left: 20px; padding-right: 20px;} p{padding-left: 20px;}}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #FF69B4;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  height: 18.4vh;
+  justify-content: space-between;
+}
+header li {
+  list-style-type: none;
+}
+header .div1 {
+  display: flex;
+  flex-direction: row;
+}
+header .div1 p {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 25px;
+}
+header .div1 img {
+  padding-left: 10px;
+}
+header .div2 nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header .div2 nav ul li {
+  padding: 50px;
+}
+
+main .container1 {
+  height: 58.8vh;
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-between;
+}
+main .container1 p {
+  width: 42.9vw;
+  height: 41.3vh;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 50px;
+}
+main .container1 img {
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main .container2 {
+  color: white;
+  height: 40.8vh;
+  background-color: #FF69B4;
+  display: flex;
+}
+main .container2 p {
+  width: 47.4;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 25px;
+}
+main .container2 img {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main .container3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFD9EC;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer {
+  color: white;
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer li {
+  list-style-type: none;
+}
+footer img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+footer p {
+  padding-left: 20px;
+}/*# sourceMappingURL=style.css.map */
